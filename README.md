@@ -9,12 +9,12 @@ Diese Repository kann einfach mittels `git clone https://git.sclabs.cloud/soeldn
 
 ---
 
-### [Grafana](../manifests/grafana/)
+### Grafana
 Das Grafana Deployment besteht aus einem PVC, dem Deployment und einem Service, welcher bei bedarf durch einen Ingress ersetzt werden kann.
 
 `kubectl apply -f manifests/grafana/`
 
-### [Prometheus](../manifests/prometheus)
+### Prometheus
 Damit Prometheus auf den cAdvisor zugreifen kann werden eine Cluster Role und ein Cluster Role Binding benötigt.<br>
 Außerdem  gibt es eine ConfigMap für die Scrape Jobs und wieder einen PVC, Service und Deployment.
 
