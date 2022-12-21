@@ -30,6 +30,8 @@ Die Standardzugangsdaten für Grafana sind
 ---
 
 ### Datasource Hinzufügen
+Die **Cluster-IP** erhält man mit dem Kommando:
+**kubectl get svc -n monitoring**
 Die DataSource mit Port 8080 und der **Cluster-IP** anbinden. VMware unterstützt leider keine cluster.local Domains.
 
 `Zahnrad(Links) -> Data Sources -> Add Data Source -> Prometheus`
