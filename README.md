@@ -5,7 +5,7 @@ Der Prometheus Scraper nutzt ausschließlich Daten vom cAdvisor. Dieser ist stan
 
 ## Installation
 
-Diese Repository kann einfach mittels `git clone https://github.com/maycornelius/Kubernetes-Monitoring.git` geklont und installiert werden.
+Diese Repository kann einfach mittels `git clone https://github.com/tmu61/Kubernetes-Monitoring.git geklont und installiert werden.
 
 ---
 
